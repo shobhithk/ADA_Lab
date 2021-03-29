@@ -1,0 +1,7 @@
+set title 'Linear Search'
+set xrange[10:100]
+set yrange[0:100]
+set xlabel 'Input size(n)'
+set ylabel 'Operation Count'
+set style data line
+plot 'linear_B_count.txt' title'Best case', 'linear_A_count.txt' title'Average case','linear_W_count.txt' title'worst case'
