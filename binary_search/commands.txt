@@ -1,7 +1,0 @@
-set title 'Bubble Sort'
-set xrange[10:100]
-set yrange[0:5000]
-set xlabel 'Input size(n)'
-set ylabel 'Operation Count'
-set style data line
-plot 'bubble_B_count.txt' title'Best case', 'bubble_A_count.txt' title'Average case','bubble_W_count.txt' title'worst case'
