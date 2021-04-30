@@ -1,0 +1,7 @@
+set title 'QuickSort'
+set xrange[0:2000]
+set yrange[0:50000]
+set xlabel 'Input size(n)'
+set ylabel 'Operation Count'
+set style data line
+plot 'QS_B_count.txt' title'Best case', 'QS_A_count.txt' title'Average case','QS_W_count.txt' title'worst case'

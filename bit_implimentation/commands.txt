@@ -1,0 +1,7 @@
+set title 'Binary digits'
+set xrange[0:1024]
+set yrange[0:12]
+set xlabel 'Input size(n)'
+set ylabel 'Operation Count'
+set style data line
+plot 'Bit_count.txt' 

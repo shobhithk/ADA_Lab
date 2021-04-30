@@ -63,12 +63,12 @@ void main()
 	int choice;
 	FILE *fp1,*fp2;
 	int count=0,run=1;
-	system("del linear_A.txt");
-	system("del linear_B.txt");
-	system("del linear_C.txt");
-	system("del linear_A_count.txt");
-	system("del linear_B_count.txt");
-	system("del linear_C_count.txt");
+	system("rm linear_A.txt");
+	system("rm linear_B.txt");
+	system("rm linear_C.txt");
+	system("rm linear_A_count.txt");
+	system("rm linear_B_count.txt");
+	system("rm linear_C_count.txt");
 	srand(time(NULL));
 	while(run){
 		printf("\n1.best case\n2.average case\n3.worst case\n4.exit\nEnter the choice\n");
@@ -95,7 +95,7 @@ void main()
 					break;
 			case 4: run=0;break;
 			
-		   default: printf("Invalid input choose again");
+		   default: printf("Invalid input choose again\n");
 					break;
 		}
 	}

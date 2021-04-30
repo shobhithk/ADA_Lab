@@ -1,6 +1,6 @@
 set title 'Bubble Sort'
 set xrange[10:100]
-set yrange[0:5000]
+set yrange[0:6000]
 set xlabel 'Input size(n)'
 set ylabel 'Operation Count'
 set style data line

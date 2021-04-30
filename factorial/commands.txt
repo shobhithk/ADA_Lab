@@ -1,0 +1,7 @@
+set title 'factorial'
+set xrange[0:60]
+set yrange[0:60]
+set xlabel 'Input size(n)'
+set ylabel 'Operation Count'
+set style data line
+plot 'Fact_count.txt' 

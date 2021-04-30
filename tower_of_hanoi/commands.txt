@@ -1,0 +1,7 @@
+set title 'tower of hanoi'
+set xrange[0:17]
+set yrange[0:66500]
+set xlabel 'Input size(n)'
+set ylabel 'Operation Count'
+set style data line
+plot 'TOH_count.txt' 

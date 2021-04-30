@@ -1,0 +1,7 @@
+set title 'string matching'
+set xrange[10:100]
+set yrange[-10:100]
+set xlabel 'Input size(n)'
+set ylabel 'Operation Count'
+set style data line
+plot 'pattern_B_count.txt' title'Best case', 'pattern_A_count.txt' title'Average case','pattern_W_count.txt' title'worst case'

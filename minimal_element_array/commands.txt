@@ -1,0 +1,7 @@
+set title 'minimal element in an array'
+set xrange[10:100]
+set yrange[10:100]
+set xlabel 'Input size(n)'
+set ylabel 'Operation Count'
+set style data line
+plot 'mArray_count.txt' title'minimal array', 

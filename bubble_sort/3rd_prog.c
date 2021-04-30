@@ -25,7 +25,7 @@ void bubbleSort(int q,FILE *fp1, FILE *fp2, int count)
 		{
 			for(i=0;i<n;i++)
 			{
-				a[i]=i+1;
+				a[i]=i*10;
 			}
 		}
 
@@ -33,7 +33,7 @@ void bubbleSort(int q,FILE *fp1, FILE *fp2, int count)
         {
 			for(i=0;i<n;i++)
 			{
-				a[i]=rand()%100;
+				a[i]=rand()%1000;
 			}
 		}
         if(q==3)

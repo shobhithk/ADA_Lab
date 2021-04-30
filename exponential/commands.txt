@@ -1,0 +1,7 @@
+set title 'addition'
+set xrange[0:10]
+set yrange[0:600]
+set xlabel 'Input size(n)'
+set ylabel 'Operation Count'
+set style data line
+plot 'exp_count.txt' 

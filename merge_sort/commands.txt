@@ -1,0 +1,7 @@
+set title 'MergeSort'
+set xrange[0:8000]
+set yrange[0:95000]
+set xlabel 'Input size(n)'
+set ylabel 'Operation Count'
+set style data line
+plot 'MS_count.txt' 
